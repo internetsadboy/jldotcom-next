@@ -36,7 +36,7 @@ export default function About({ isMobile }: { isMobile: boolean }) {
               </div>
               <div className="mt-4 pt-4">
                 <h2 className="text-lg font-semibold">Summary</h2>
-                <p className="tracking-wide mt-2">
+                <p className="tracking-wide mt-2 max-w-80">
                   This is a list of various job titles and roles that I have held throughout my "career."
                 </p>
               </div>

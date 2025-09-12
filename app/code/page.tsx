@@ -5,11 +5,11 @@ import Image from 'next/image';
 
 export default function Code() {
   return (
-    <div className="pl-10 font-sans flex flex-col min-h-screen gap-2 tracking-[1px]">
+    <div className="pl-8 sm:pl-10 font-sans flex flex-col min-h-screen gap-2 tracking-[1px]">
       <section className="flex flex-col gap-8 mb-8">
         <h1 className="text-[28px] sm:text-3xl mr-2 mb-0 pt-10 courier font-bold">
           {`console.log('`}
-          <span className="bg-blue-700 text-[lawngreen] px-2">CODE</span>
+          <span className="bg-blue-700 text-white px-2">CODE</span>
           {`')`}
         </h1>
         <ul className="gap-8 flex flex-col">

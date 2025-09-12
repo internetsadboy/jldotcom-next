@@ -29,19 +29,19 @@ export default function About({ isMobile }: { isMobile: boolean }) {
                 <h2 className="text-lg font-semibold">Resume</h2>
                 <Link 
                   href="/about/JL_RESUME_SEP_2025.pdf"
-                  className="underline underline-offset-8"
+                  className="tracking-wide underline underline-offset-8"
                   target="_blank">
                   View my resume
                 </Link>
               </div>
               <div className="mt-4 pt-4">
                 <h2 className="text-lg font-semibold">Summary</h2>
-                <p className="mt-2">
+                <p className="tracking-wide mt-2">
                   This is a list of various job titles and roles that I have held throughout my "career."
                 </p>
               </div>
               <h1 className="text-xl my-6 underline underline-offset-8">IN ALPHABETICAL ORDER</h1>
-              <ul className="flex flex-col gap-1 mt-5">
+              <ul className="tracking-wide flex flex-col gap-1 mt-5">
                 <li>Camera Operator</li>
                 <li>Cashier</li>
                 <li>Cellar Worker</li>

@@ -7,13 +7,12 @@ export default function Film() {
   return (
     <div className="pl-8 sm:pl-10 pt-10">
       <div className="font-semibold text-lg">Documentary</div>
-      <ul className="py-4 flex flex-col gap-1">
+      <ul className="tracking-wide py-4 flex flex-col gap-1">
         <li className="flex items-center max-w-70">
           <Link 
             target="_blank"
             className="hover:underline hover:underline-offset-4" 
             href="https://vimeo.com/772612578">[2021] Sky Boy 
-            
           </Link>
           <span className="hidden md:inline ml-auto font-semibold ml-2 courier bg-yellow-200">profile</span>
         </li>
@@ -35,7 +34,7 @@ export default function Film() {
         </li>
       </ul>
       <div className="py-5 font-semibold text-lg">Music Video</div>
-      <ul className="py-4 flex flex-col gap-1">
+      <ul className="tracking-wide py-4 flex flex-col gap-1">
         <li className="flex items-center max-w-96">
           <Link 
             target="_blank"
@@ -94,7 +93,7 @@ export default function Film() {
         </li>
       </ul>
       <div className="py-5 font-semibold text-lg">Other</div>
-      <ul className="py-4 flex flex-col gap-1">
+      <ul className="tracking-wide py-4 flex flex-col gap-1">
         <li className="flex items-center max-w-96">
           <div>[2023] After Shock (feature)</div>
           <span className="hidden md:inline ml-auto font-semibold ml-2 courier bg-red-200">Asst. Carpenter</span>
